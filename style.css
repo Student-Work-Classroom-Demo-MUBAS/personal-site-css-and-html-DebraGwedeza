@@ -58,6 +58,14 @@ max-width: 1200px;
     color: #fff;
 }
 
+.hero-text button{
+    background-color: rgb(3, 37, 37);
+    color: white;
+    padding: 20px;
+    column-gap: 40px;
+    font-size: larger;
+}
+
 
 .hero-text hr{
     width: 350px;
@@ -69,9 +77,26 @@ max-width: 1200px;
 .image img{
     width: 350px;
     height:auto;
-    background-color: white ;
+    background-color: white  ;
     max-width: 320%;
-    border-radius: 50%;
-
-    
+    border-radius: 50%;   
 }
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 20px 40px;
+    background-color: rgb(24, 20, 20);
+    color: #fff;
+}
+
+.footer-container i{
+    color: white;
+}
+
+.footer-container a{
+    color: white;
+    margin: 0px 15px;
+}
+ 
