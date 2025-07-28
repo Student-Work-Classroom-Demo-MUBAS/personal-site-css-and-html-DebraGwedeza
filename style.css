@@ -33,10 +33,11 @@ transition: color 0.2s ease;
 .hero {
 display: flex;
 align-items: center;
-padding: 50px;
+padding: 100px;
 text-align: left;
-background-color: rgb(16, 170, 170);
-gap: 40px;
+background-color: rgb(31, 105, 105);
+gap: 50px;
+max-width: 1200px;
 }
 
 .hero-text h1{
@@ -68,8 +69,9 @@ gap: 40px;
 .image img{
     width: 350px;
     height:auto;
-    border: none;
-    background-color: rgb(16, 170, 170) ;
-    max-width: 100%;
+    background-color: white ;
+    max-width: 320%;
+    border-radius: 50%;
+
     
 }
