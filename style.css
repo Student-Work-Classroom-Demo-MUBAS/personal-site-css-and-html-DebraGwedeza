@@ -1,4 +1,49 @@
-body{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.hero{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 0px 20px;
+    position: relative;
+}
+
+.navigation-menu{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
 margin: 0;
 font-family:Arial, sans-serif;
 }
@@ -12,6 +57,14 @@ background-color: rgb(24, 20, 20);
 color: #fff;
 }
 
+.header-container h1{
+display: flex;
+justify-content: space-between;
+align-items: left;
+padding: 20px 40px;
+background-color: rgb(24, 20, 20);
+color: #fff;
+}
 .title{
     font-size: 2rem;
 }
@@ -33,11 +86,11 @@ transition: color 0.2s ease;
 .hero {
 display: flex;
 align-items: center;
-padding: 100px;
+padding: 80px;
 text-align: left;
 background-color: rgb(31, 105, 105);
 gap: 50px;
-max-width: 1200px;
+max-width: 1500px;
 }
 
 .hero-text h1{
@@ -58,13 +111,13 @@ max-width: 1200px;
     color: #fff;
 }
 
-.hero-text button{
+/* .hero-text button{
     background-color: rgb(3, 37, 37);
     color: white;
     padding: 20px;
     column-gap: 40px;
     font-size: larger;
-}
+} */
 
 
 .hero-text hr{
@@ -79,14 +132,16 @@ max-width: 1200px;
     height:auto;
     background-color: white  ;
     max-width: 320%;
-    border-radius: 50%;   
+    border-radius: 50%; 
+    align-content: space-evenly; 
+    margin-left: 150px; 
 }
 
 .footer-container{
     display: flex;
     justify-content: space-between;
     align-items: left;
-    padding: 20px 40px;
+    padding: 10px 200px;
     background-color: rgb(24, 20, 20);
     color: #fff;
 }
@@ -99,4 +154,28 @@ max-width: 1200px;
     color: white;
     margin: 0px 15px;
 }
- 
+
+.resume-container{
+    display: flex;
+    padding: 0px;
+    height: 50px;
+
+}
+
+.resume-container h2{
+    color: white;
+    background-color: rgb(31, 105, 105);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.resume-container li{
+    padding: 0px 10px;
+    margin-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+
+  */
