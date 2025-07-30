@@ -1,4 +1,66 @@
-*{
+ body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+ } 
+
+ .navigation-menu{
+    background-color: #1f1f2f;
+    padding: 2px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 500;/*set everything in navigation menu on top*/
+ }
+  
+ .navigation-link{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 1px;
+    padding: 0;
+ }
+  
+ .navigation-link li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+ }
+  
+ .navigation-link li a:hover{
+    color: #ffc107;
+ }
+
+ .hero{
+    height: 100vh;/*fits full page*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,#3c3c5a,#5a5a85);/*blended two colours for smooth transition and the gradient will move from left to right horizontally*/
+    color: #ffffff;
+    padding-top: 80px;/*space for fixed nav*/
+    
+ }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,18 +70,37 @@
 
 .hero{
     height: 100vh;
-    align-items: center;
-    justify-content: center;
+    justify-content: left;
     display: flex;
-    padding: 0px 20px;
+    padding: 80px;
     position: relative;
+    gap: 50px;
+    text-align: left;
 }
 
-.navigation-menu{
-    
+
+.navigation-menu {
+    position:absolute;
+    top: 20px;
+    right: 40px;
+
 }
 
+.navigation-link{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
 
+.image{
+    gap: 50px;
+}
+
+.hero-section{
+    padding: 0px 20px;
+    text-align: left;
+    display: grid;
+} */ 
 
 
 
@@ -120,7 +201,7 @@ max-width: 1500px;
 } */
 
 
-.hero-text hr{
+/* .hero-text hr{
     width: 350px;
     border: 2px solid grey;
     margin: 0%;
@@ -178,4 +259,4 @@ max-width: 1500px;
 }
 
 
-  */
+  */ 
