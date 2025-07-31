@@ -37,16 +37,112 @@
  .hero{
     height: 100vh;/*fits full page*/
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    background: linear-gradient(to right,#3c3c5a,#5a5a85);/*blended two colours for smooth transition and the gradient will move from left to right horizontally*/
+    /*background: linear-gradient(to right,#3c3c5a,#5a5a85);blended two colours for smooth transition and the gradient will move from left to right horizontally*/
     color: #ffffff;
     padding-top: 80px;/*space for fixed nav*/
-    
+    padding: 100px 50px 50px;
+    background-color: black;  
+ }
+
+ .hero-section{
+    flex: 1;
+    max-width: 50%;
+    text-align: left;
+ }
+
+ .hero-section h1{
+      font-size: 2rem;
+      margin-bottom: 30px;
+ }
+
+ .hero-section h2{
+      font-size: 3rem;
+      margin-bottom: 20px;
+ }
+
+ .hero-section p{
+      font-size: 1rem;
+      margin-bottom: 30px;
+      max-width: 1000px;
+ }
+
+ .button{
+    background-color: #ffc107;
+    color: whitesmoke;
+    border-radius: 8px;
+    padding: 15px 30px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+ }
+ .button:hover{
+    background-color: #e0a800;
+ }
+
+ /*for hero image
+ .image{
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    /* justify-content: flex-end; 
+ }*/
+ .image img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 12px;
+    align-content: space-evenly;
+    margin-left: 150px;
+    width: 350px;
  }
   
-  
+ /*About section*/
+ #about{
+    background-color: white;
+    padding: 80px 40px;
+    height: 100vh;
+
+ }
+
+ .about-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1200px;
+    margin: auto;
+
+ }
+
+ .about-image img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 12px;
+    align-content: space-evenly;
+    margin-left: 0;
+    width: 350px; 
+ }
+
+ .about-text{
+    flex: 1;
+    max-width: 55%;
+    text-align: left;
+    
+ }
+
+ .about-text h2{
+    font-size: 2rem;
+    margin-bottom: 20px ;
+ }
+
+ .about-text p{
+    font-size: 1rem;
+    line-height: 1.5;
+    
+ }
   
   
   
