@@ -5,6 +5,7 @@
     color: #333;
  } 
 
+ /*hero section*/
  .navigation-menu{
     background-color: #1f1f2f;
     padding: 2px;
@@ -198,10 +199,102 @@
 
  }
   
-  
-  
-  
-  
+ /* RESUME SECTION*/
+ .resume-section{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #333;
+ }
+ .resume-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    padding: 0 20px;
+    margin: 20px;
+
+ }
+
+ .resume-title{
+    align-self: left;
+    font-size: 3rem;
+    margin-bottom: 30px;
+    color: white;
+ }
+
+ .columns{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    margin-bottom: 40px;
+ }
+
+ .columns>*{
+     background-color: #ffc107;
+ }
+
+ .education,.experience,.skills{
+    flex: 1;
+    min-width: 500px;
+    padding: 1rem;
+    border-radius: 8px;
+    box-sizing: border-box;
+ }
+
+ h2{
+    font-size: 2rem;
+    border-bottom: 2px;
+    padding-bottom: 10px;
+    margin-bottom: 1rem;
+    
+ }
+
+ /* text entry formatting */
+ ul{
+    list-style: none;
+    padding: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  li{
+    margin-bottom: 1rem;
+  }
+
+ h3{
+    font-size: 1rem;
+  }
+
+ li p{
+    font-size: 20px;
+    margin: 4px 0;
+  }
+
+  .skills li{
+    list-style: disc;
+    font-weight: 500;
+    font-size: 20px;
+  } 
+
+  /*CONTACT SECTION*/
+  #contact{
+   background-color: #ffffff;
+   padding: 4rem 2rem;
+   font-family: 'Segoe UI', sans-serif;
+  }
+   
+  .contact-wrapper{
+   display: flex;
+   justify-content: space-between;
+   height: 100vh;
+   max-width: 1000px;
+   margin: auto;
+   gap: 2rem;
+   flex-wrap: wrap;
+  }
+
+  .contact-content{
+   flex: 1;
+   min-width: 300px;
+  }
   
   
   
