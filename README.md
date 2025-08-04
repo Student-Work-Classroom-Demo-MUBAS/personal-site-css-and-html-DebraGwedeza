@@ -87,4 +87,34 @@ README.md
 
 ## ✍️ Student Reflection (To be completed by you)
 
-Add your reflection here. Discuss your design choices, what you found difficult, and what you're most proud of (minimum 100 words).
+## Debra's Personal Portifolio
+Welcome to my personal portifolio website! This project helped me gain skills, experience, and passion for web develpment.It includes the hero section, resume page, projects,about me and contact form all using css style and HTML.
+
+## Design Choices
+i chose a bold black and gold theme for creativity. The layout uses flexbox for respinsive alignment and smooth scrolling navigation. 
+font awesome iconsenhance visual clarity and each section is spaced for readabiklity. I used segoe UI and sans serif fonts.
+
+## Features
+Hero section: A brief introduction with background image 
+Resume page: Education,work experience and skills
+Project section: I included 3 projects with screenshots and simple descriptions
+About me: A personal write up highlighting my journey
+Contact Section: A styled form with input fields and contact information.
+
+## Responsiveness
+The site is responsive across devices with the use of @media queries and flexible layouts. The pictures are scalable and maintains visual balance on smaller screens.
+
+## Accesibility
+All images I include alt text to be displayed when the picture is not loaded. I used semantic elements like <main>, <section>, and <nav> to improve structure and compatibility on screen.
+
+## Layout Sketch
+I used canva for my layout plan uploaded as pdf in the folder
+
+## Reflection
+The project helped me apply what i have been learning though i am still encountering some challenges like layout alignment to make it responsive. I am proud that i was able to integrate the projects. Initally, the  contact-info section the icons were clickable but i had challenges that the links were directly to my inbox.
+
+## Github
+all files pushed to the main repository
+
+
+

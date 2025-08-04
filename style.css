@@ -9,23 +9,12 @@
     font-family: 'Segoe UI', sans-serif;
     background-color: black;
     color: white;
-    /* max-width: 100vw;
-    overflow-x: hidden; */
  } 
 
  html{
    scroll-behavior: smooth;
  }
  
- /*hero section*/
-
-   /* nav{
-   position: fixed;
-   top:0;
-   width: 100%;
-   height: 25px;  */
- 
-
  .navigation-menu{
     background-color: #ffc107;
     padding: 2px;
@@ -94,36 +83,17 @@
       max-width: 1000px;
  }
 
- /* .button{
-    background-color: #ffc107;
-    color: whitesmoke;
-    font-size: 1rem;
-    border-radius: 8px;
-    padding: 1px;
-    font-weight: bold;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-    margin-bottom: 10px; */
- 
- /* .button:hover{
-    background-color: #e0a800; */
-
  .image img{
     max-width: 100%;
     height: auto;
     margin-top: 30px;
-    border-radius: 12px;
-    /*align-content: space-evenly;
-    margin-left: 150px;
-    width: 100%; */
-    
+    border-radius: 12px;  
  }
   
  /*About section*/
  #about{
     background-color: black;
     padding: 80px 40px;
-    /* height: 100vh; */
     display: flex;
     align-items: flex-start;
     gap: 2rem;
@@ -200,7 +170,6 @@
     box-shadow: 0 4px 6px #ffc107;
     max-width: 400px;
     display: flex;
-    /* position: relative; */
     flex-direction: column;
     min-height: 100px;
     padding: 1rem;
@@ -223,7 +192,7 @@
  }
 
  .project-content{
-    padding: 20px;
+    padding: 5px;
     text-align: center;
  }
 
@@ -236,7 +205,7 @@
  .project-link{
    color:#ffc107;
    font-size: 1.8rem;
-   margin-top:10px;
+   margin-top:0px;
    display: inline-block;
    transition: color 0.3s ease;
  }
@@ -246,7 +215,6 @@
  }
 
  
-  
  /* RESUME SECTION*/
  .resume-section{
     font-family: sans-serif;
@@ -408,214 +376,3 @@
       padding: 10px 0;
    }
   }
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-  /* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-}
-
-
-.hero{
-    height: 100vh;
-    justify-content: left;
-    display: flex;
-    padding: 80px;
-    position: relative;
-    gap: 50px;
-    text-align: left;
-}
-
-
-.navigation-menu {
-    position:absolute;
-    top: 20px;
-    right: 40px;
-
-}
-
-.navigation-link{
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-.image{
-    gap: 50px;
-}
-
-.hero-section{
-    padding: 0px 20px;
-    text-align: left;
-    display: grid;
-} */ 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* body{
-margin: 0;
-font-family:Arial, sans-serif;
-}
-
-.header-container {
-display: flex;
-justify-content: space-between;
-align-items: left;
-padding: 20px 40px;
-background-color: rgb(24, 20, 20);
-color: #fff;
-}
-
-.header-container h1{
-display: flex;
-justify-content: space-between;
-align-items: left;
-padding: 20px 40px;
-background-color: rgb(24, 20, 20);
-color: #fff;
-}
-.title{
-    font-size: 2rem;
-}
-
-.navigation-menu {
-list-style: none;
-display: flex;
-gap: 25px;
-margin: 0;
-padding: 0;
-}
-
-.navigation-menu li a {
-color: #fff;
-font-weight: bold;
-transition: color 0.2s ease;
-}
-
-.hero {
-display: flex;
-align-items: center;
-padding: 80px;
-text-align: left;
-background-color: rgb(31, 105, 105);
-gap: 50px;
-max-width: 1500px;
-}
-
-.hero-text h1{
-    font-size: 2rem;
-    color: white;
-}
-
-.hero-text h2{
-    font-size: 3rem;
-    color: white;
-}
-.hero-text h3{
-    font-size: 2rem;
-    color: white;
-}
-
-.hero-text p{
-    color: #fff;
-}
-
-/* .hero-text button{
-    background-color: rgb(3, 37, 37);
-    color: white;
-    padding: 20px;
-    column-gap: 40px;
-    font-size: larger;
-} */
-
-
-/* .hero-text hr{
-    width: 350px;
-    border: 2px solid grey;
-    margin: 0%;
-    margin-bottom: 15px;
-}
-
-.image img{
-    width: 350px;
-    height:auto;
-    background-color: white  ;
-    max-width: 320%;
-    border-radius: 50%; 
-    align-content: space-evenly; 
-    margin-left: 150px; 
-}
-
-.footer-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: left;
-    padding: 10px 200px;
-    background-color: rgb(24, 20, 20);
-    color: #fff;
-}
-
-.footer-container i{
-    color: white;
-}
-
-.footer-container a{
-    color: white;
-    margin: 0px 15px;
-}
-
-.resume-container{
-    display: flex;
-    padding: 0px;
-    height: 50px;
-
-}
-
-.resume-container h2{
-    color: white;
-    background-color: rgb(31, 105, 105);
-    margin-bottom: 10px;
-    border-radius: 5px;
-    padding: 5px 20px;
-}
-
-.resume-container li{
-    padding: 0px 10px;
-    margin-bottom: 5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
-}
-
-
-  */ 
